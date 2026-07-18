@@ -1,0 +1,11 @@
+# JWT Secret for token signing (change this in production!)
+JWT_SECRET=your-secret-key-change-in-production
+
+# Server port
+PORT=3000
+
+# Optional: Database path (defaults to ./messages.db)
+# DATABASE_PATH=./messages.db
+
+# Optional: Node environment
+NODE_ENV=development

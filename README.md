@@ -23,10 +23,14 @@ Encryption Algorithm: Box (Authenticated Encryption)
 	•	Algorithm: XSalsa20-Poly1305
 	•	Key Exchange: Curve25519
 	•	Library: TweetNaCl.js (JavaScript port of NaCl)
+
+
 Key Generation
 Each user generates a keypair:
 	•	Public Key (shared with server, stored for other users)
 	•	Secret Key (kept only on client, never sent to server)
+
+
 Message Encryption
 	1.	Message is encrypted with:
 	•	Recipient’s public key
@@ -37,6 +41,6 @@ Message Encryption
 	4.	Recipient decrypts using:
 	•	Sender’s public key
 	•	Their secret key
-	•	Nonce from message
+	•	From message
 
 Even if server is compromised, messages cannot be read

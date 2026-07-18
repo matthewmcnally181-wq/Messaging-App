@@ -1,9 +1,8 @@
-Messaging-App/
-├── server.js           # Node.js/Express backend (encrypted)
+cipher-messaging/
+├── server.js              # Express/WebSocket server
+├── package.json           # Dependencies
 ├── public/
-│   ├── index.html     # Beautiful UI with intentional design
-│   └── app.js         # Encryption + client logic (NaCl Box)
-├── package.json       # Dependencies
-├── .env.example       # Configuration template
-├── README.md          # Full documentation
-└── QUICKSTART.md      # Get running in 30 seconds
+│   ├── index.html         # UI and styling
+│   └── app.js             # Client-side logic & encryption
+├── messages.db            # SQLite database (created on first run)
+└── README.md             # ReadME

@@ -1,0 +1,9 @@
+Messaging-App/
+├── server.js           # Node.js/Express backend (encrypted)
+├── public/
+│   ├── index.html     # Beautiful UI with intentional design
+│   └── app.js         # Encryption + client logic (NaCl Box)
+├── package.json       # Dependencies
+├── .env.example       # Configuration template
+├── README.md          # Full documentation
+└── QUICKSTART.md      # Get running in 30 seconds
